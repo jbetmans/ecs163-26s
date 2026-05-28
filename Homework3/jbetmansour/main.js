@@ -276,7 +276,7 @@ d3.csv("pokemon.csv").then((rawData) => {
         .attr("y", pcTop + 16)
         .attr("font-size", "18px")
         .attr("text-anchor", "middle")
-        .text("Base Stats (Parallel Coordinates)");
+        .text("Base Stats");
 
     // X scale
     const xPC = d3
